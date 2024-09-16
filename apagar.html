@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USUARIOS</title>
+</head>
+<body>
+
+    <h1>parabens voce está logado</h1>
+    
+    {% SET menssage = get_flashed_messages() %}
+    {% if menssagem %}
+        <div class="flash_alerta">
+            {{menssagem[0]}}
+
+        </div>
+     {% endif %}
+
+
+
+</body>
+</html>
